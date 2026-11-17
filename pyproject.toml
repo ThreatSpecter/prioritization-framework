@@ -1,0 +1,10 @@
+[project]
+name = "prioritization-framework"
+version = "0.1.0"
+description = "Security Prioritization Framework (FAIR + SSVC + Boehm One-Way Doors)"
+readme = "README.md"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
